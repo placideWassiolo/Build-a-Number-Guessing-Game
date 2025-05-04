@@ -15,7 +15,6 @@ MESSAGE(){
 GUESS_NUMBER(){
   NUMBER=$(( RANDOM % 1000 + 1 ))
   MESSAGE "Guess the secret number between 1 and 1000:"
-  echo $NUMBER
   read GUESS_NUMBER
   SUM_GUESS=1
 
